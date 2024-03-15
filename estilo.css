@@ -411,3 +411,35 @@ input{
     transform: scale(1.1); 
 }
 
+#destaques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#darsiders{
+    margin-left: -5%;
+}
+
+.carta img {
+    width: 10rem;
+    transition: transform 0.3s;
+}
+
+.carta img:hover {
+    transform: scale(1.2);
+}
+.carta {
+    margin-left: 7%;
+}
+
+
+.jogos {
+    margin-left: 5%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+    overflow-x: auto;
+}
+
